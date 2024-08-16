@@ -159,7 +159,8 @@ while True:
         import_contacts(file_name)
 
     elif option == '0':
-        console.print(Panel('Até logo!', style="bold green"))
+        console.print(Panel('Até logo!', style="bold green", subtitle='Feito com :heart:', subtitle_align="center"))
         break
     else:
         console.print(Panel('Opção inválida, escolha 1-7 ou 0 para sair!', style="bold red"))
+
